@@ -9,12 +9,21 @@ Progress
 ---------------
 
 What is DevOps?
+
 Programming Languages and Scripting
+
 Know your O.S.
+
 Git and Version Control
+
 Cloud Providers
+
 CICD Pipelines
+
 Containers
+
 Container Orquestration
+
 Monitoring
+
 Store Your Data
