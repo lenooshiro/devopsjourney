@@ -1,7 +1,7 @@
 # Devops Journey
 
 <p align="center">
- <img src="devops-logo.png?raw=true" alt="Devops Journey Logo" width="50%" height="50%" />
+ <img src="images/devops-logo.png?raw=true" alt="Devops Journey Logo" width="50%" height="50%" />
 </p>
 
 I'm going to use this repository to document my journey as a Devops Engineer.
