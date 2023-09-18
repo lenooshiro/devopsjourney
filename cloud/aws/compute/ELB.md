@@ -1,5 +1,16 @@
 # Elastic Load Balancing
 
+# Table of Contents
+1. [Introduction](#Introduction)
+2. [ELB ALB - Application Load Balancer](#elb-alb---application-load-balancer)
+    1. [Server Certificates (SSL/TLS)](#server-certificates-ssltls)
+3. [ELB NLB - Network Load Balancer](#elb-nlb---network-load-balancer)
+4. [CLB - Classic Load Balancer](#elb-clb---classic-load-balancer)
+5. [Using ELB with Auto Scaling](#using-elb-with-auto-scaling)
+6. [References](#references)
+
+## Introduction
+
 <p align="center">
  <img src="images/elb.png" alt="Elastic Load Balancing" width="50%" height="50%" />
 </p>
@@ -77,3 +88,36 @@ You can select a certificate by Choosing/Uploading one using ACM or IAM. The las
 
 ## ELB NLB - Network Load Balancer
 
+The principles are the same as the ALB, but while the ALB works analyzing the HTTP header to redirect traffic, the NLB operates at the Transport Layer (of the OSI model) balancing requests based on TCP/UDP protocols.
+
+You should choose NLB if:
+- You need to process millions of requests per second
+- You need a static IP address
+
+For the NLB, Cross-Zone load balancing can be enabled or disabled.
+
+The NLB uses an algorithm which uses details such as the TCP sequence, protocol, source port, source IP, destination port and destination IP to select the target in that zone to process the request.
+
+When a TCP connection is stablished with a target host, it will remain open until the duration of the request.
+
+## ELB CLB - Classic Load Balancer
+
+The CLB supports TCP, HTTP and HTTPS (SSL/TLS) protocols. It's recommended to use ALB over CLB unless you have an application running in an EC2-Classic network.
+
+> EC2-Classic: is a platform where your instances run in a single, flat network that you share with other customers. With the creation of VPC, your instances run in a private cloud where that's logically isolated. It's not supported anymore for accounts created after 2013-12-04.
+
+Advantages over ALB:
+- Supports EC2-Classic
+- Supports TCP and SSL listeners
+- Supports sticky sessions using application generated cookies
+
+Also Cross-Zone load balancing can be enabled or disabled.
+
+## Using ELB with Auto Scaling
+
+Please check the Auto Scaling page.
+
+## References
+
+Table of comparison of each Load Balance type:
+https://aws.amazon.com/elasticloadbalancing/features/#compare

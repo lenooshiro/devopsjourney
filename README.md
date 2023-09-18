@@ -9,34 +9,41 @@ Although I've been working as one for some years already, I feel that there's a 
 
 The original idea is from [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps). 
 
-## Progress
+## Content
 
-01) DevOps
+<b>01. DevOps</b>
 - What is DevOps?
 
-02) Programming Languages and Scripting
-- Are DevOps programmers too?
-- Bash and Shell scripting
-- Python and Go
+<b>02. Programming Languages and Scripting</b>
+- DevOps and programming
+- Bash/Shell scripting
+- Python
 
-03) Operational Systems
+<b>03. Operational Systems</b>
+- Linux
+- Windows
 
-04) Version Control
+<b>04. Version Control</b>
+- Why is it important?
+- Git
 
-05) Cloud Providers
+<b>05. Cloud Providers</b>
 - Microsoft Azure
-- Amazon Web Services
+- [Amazon Web Services](cloud/aws/README.md)
 - Google Cloud Platform
 
-7) CICD Pipelines
+<b>06. CICD Pipelines</b>
 - What is CICD?
 - What are pipelines used for?
 - CICD tools
 
-8) Containers
+<b>07. Containers</b>
 - What are containers?
 - Containers x Virtual Machines
 - Docker
 - Kubernetes and Orchestration
 
-9) Monitoring
+<b>08. Monitoring</b>
+- The importance of monitoring
+- Grafana
+- Prometheus
