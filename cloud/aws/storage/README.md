@@ -4,15 +4,15 @@ There's a wide variety of storage services offered by AWS, available for you to 
 
 <b> AWS Storage Services</b>
 - [Amazon Simple Storage Service (Amazon S3)](aws-s3.md)
-- Amazon S3 Glacier
-- Amazon EC2 Instance Storage
+- [Amazon S3 Glacier](aws-s3.md#s3-glacier)
+- [Amazon EC2 Instance Storage](ec2-instancestorage.md)
 - Amazon Elastic Block Store (EBS)
 - Amazon Elastic File System (EFS)
 - Amazon CloudFront
 
 <b>Transfer data methods (for storage into and out of AWS)</b>
-- AWS Storage Gateway
-- AWS Snowball
+- [AWS Storage Gateway](aws-stgateway.md)
+- [AWS Snowball](aws-snowball.md)
 
 <b>Why so many storage services?</b>
 
