@@ -4,15 +4,20 @@
  <img src="images/devops-logo.png?raw=true" alt="Devops Journey Logo" width="50%" height="50%" />
 </p>
 
-I'm going to use this repository to document my journey as a Devops Engineer.
-Although I've been working as one for some years already, I feel that there's a lot of room to improve. I hope that this repository will not only help me with my studies, to get a better understandings of the fundamentals, but will also help many others who are following the same path.
+I'm using this repository to document my journey as a Devops Engineer.
+
+Although I've been working as one for some years already, I feel that there's a lot of room to improve. I understand that this repository is a bit confusing but I'm still reorganizing it.
+
+I'm prioritizing topics that's I'm still learning, such as cloud providers. Lots of topics are ones that I already know, but I need time to write down everything.
+
+I hope that this repository will not only help me with my studies, to get a better understandings of the fundamentals, but will also help many others who are following the same path.
 
 The original idea is from [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps). 
 
 ## Content
 
-<b>01. DevOps</b>
-- What is DevOps?
+<b>01. Introduction</b>
+- [Core Concepts of DevOps](01-devops/README.md)
 
 <b>02. Programming Languages and Scripting</b>
 - DevOps and programming
