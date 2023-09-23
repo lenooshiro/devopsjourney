@@ -11,8 +11,8 @@ AWS offers many services that allows almost any solution to exist and take advan
 This means that, from an infrastructure perspective, AWS has to provide services, components and features that provides these core elements. They are as follows:
 
 - [Compute](compute/README.md)
-- Storage
-- Networking
+- [Storage](storage/README.md)
+- [Networking](networking/README.md)
 - Database
 
 Each one of them will be covered in more details in theis respective sections.
