@@ -18,6 +18,6 @@ Graph databases such as Neptune allows you to perform complex queries based on d
 
 ## Query Languages
 
-Neptune supports two graph query frameworks:
+Amazon Neptune uses its own graph database engine and supports two graph query frameworks:
 - Apache Tinkerpop Gremlin
 - World Wide Web Consortium SparQL
