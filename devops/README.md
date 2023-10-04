@@ -1,7 +1,7 @@
 # DevOps Concepts
 
 <p align="center">
- <img src="src/img/devops.png" alt="DevOps"/>
+ <img src="images/devops.png" alt="DevOps"/>
 </p>
 
 ## Table of Contents
@@ -34,7 +34,7 @@ To understand how DevOps emerged, we must first understand what were the most po
 One of the most traditional approaches of software development is called "Waterfall Method".
 
 <p align="center">
- <img src="src/img/waterfall.png" alt="DevOps" width="50%" height="50%"/>
+ <img src="images/waterfall.png" alt="DevOps" width="50%" height="50%"/>
 </p>
 
 This is a very straight forward and linear model, following a top-down approach. Let's briefly describe each one of those stages:
@@ -55,7 +55,7 @@ With this we can see that it's difficult to make changes if, for instance, the r
 ### The Agile Methodology
 
 <p align="center">
- <img src="src/img/agile.png" alt="DevOps"/>
+ <img src="images/agile.png" alt="DevOps"/>
 </p>
 
 Agile is a software development approach where the software project is broken into several iterations/sprints. Each iteration will have stages similar to the waterfall method and the duration is usually between 2 and 8 weeks.
