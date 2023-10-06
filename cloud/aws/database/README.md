@@ -6,5 +6,5 @@
 - [Amazon Neptune](neptune.md)
 - [Amazon Redshift](redshift.md)
 - [Amazon QLDB](qldb.md)
-- [Amazon DocumentDB]
-- [Amazon Keyspaces]
+- [Amazon DocumentDB](documentdb.md)
+- [Amazon Keyspaces](keyspaces.md)
