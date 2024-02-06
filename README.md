@@ -12,43 +12,97 @@ I'm prioritizing topics that's I'm still learning, such as cloud providers. Lots
 
 I hope that this repository will not only help me with my studies, to get a better understandings of the fundamentals, but will also help many others who are following the same path.
 
-The original idea is from [90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps). 
+
 
 ## Content
 
-<b>01. Introduction</b>
-- [Core Concepts of DevOps](01-devops/README.md)
 
-<b>02. Programming Languages and Scripting</b>
-- DevOps and programming
-- Bash/Shell scripting
-- Python
+<b>01. DevOps</b>
+- [What is DevOps](devops/README.md)
+- CI/CD
+- Cloud Providers
+    - [Amazon Web Services](devops/cloud/aws/README.md)
+    - [Microsoft Azure](devops/cloud/microsoftazure/README.md)
+- Containers
+- Container Orchestration
+- Monitoring
+- Infrastructure as a Code
+- Version Control
 
-<b>03. Operational Systems</b>
-- Linux
-- Windows
+<b>02. Microservices</b>
 
-<b>04. Version Control</b>
-- Why is it important?
-- Git
+- What are Microservices
+- How to change from Monolith to Microservices
+- How microservices communicate with each other
+- What are the challenges when using Microservices
 
-<b>05. Cloud Providers</b>
-- [Microsoft Azure](cloud/microsoftazure/README.md)
-- [Amazon Web Services](cloud/aws/README.md)
-- Google Cloud Platform
+<b>03. Network Fundamentals</b>
 
-<b>06. CICD Pipelines</b>
-- What is CICD?
-- What are pipelines used for?
-- CICD tools
+- TCP/IP
+- IP Masks
+- Firewall
+- DNS
+- NAT
+- IPTables
+- Public and Private Network
 
-<b>07. Containers</b>
-- What are containers?
-- Containers x Virtual Machines
-- Docker
-- Kubernetes and Orchestration
+<b>04. Virtual Machines</b>
 
-<b>08. Monitoring</b>
-- The importance of monitoring
-- Grafana
-- Prometheus
+- What are Virtual Machines
+- What is a Hypervisor
+- What is the difference between Type 1 and Type 2 hypervisors
+- Why is virtualization important
+
+<b>05. Docker Containers</b>
+
+- What is Docker
+- What are the advantages of using Containers
+- What are the differences between Containers and Virtual Machines
+- What are the components docker uses
+- What are the differences between docker images and docker containers
+- When scaling containers, how do I bind multiple equal containers to one port
+- What are docker volumes and how to use them
+- What are docker networks and why use them
+- What is the difference between RUN, CMD and ENTRYPOINT
+- What is Docker Compose
+
+<b>06. Container Orquestrators</b>
+
+- Kubernetes
+- Docker Compose
+
+<b>07. Monitoring</b>
+
+- Importance of Observability
+- Prometheus and Grafana
+
+<b>08. Service Mesh</b>
+
+- What is Consul? And Envoy?
+- What are the advantages of using Consul
+
+<b>09. Infrastructure as Code (IaC)</b>
+
+- Concepts of IaC
+- What is Terraform
+
+<b>10. Databases</b>
+
+- What is SQL (Relational DB)
+- What is NoSQL (Non Relational DB)
+- What are the differences between those databases
+
+<b>11. Other Tools</b>
+
+- Redis
+- Kafka
+- Chef
+- Puppet
+- Vagrant
+- Vault
+- Istio
+
+<b>12. Deployment Strategies</b>
+
+- Canary
+- Blue/Green
