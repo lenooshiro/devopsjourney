@@ -18,23 +18,18 @@ I hope that this repository will not only help me with my studies, to get a bett
 
 
 <b>01. DevOps</b>
+
 - [What is DevOps](devops/README.md)
-- CI/CD
-- Cloud Providers
+- [CI/CD](devops/cicd/README.md)
+- [Cloud Providers](devops/cloud/README.md)
     - [Amazon Web Services](devops/cloud/aws/README.md)
     - [Microsoft Azure](devops/cloud/microsoftazure/README.md)
-- Containers
-- Container Orchestration
-- Monitoring
-- Infrastructure as a Code
-- Version Control
 
 <b>02. Microservices</b>
 
-- What are Microservices
-- How to change from Monolith to Microservices
-- How microservices communicate with each other
-- What are the challenges when using Microservices
+- [What are Microservices](microservices/README.md)
+- [How to change from Monolith to Microservices](microservices/README.md#a-how-to-break-down-the-application)
+- [How microservices communicate with each other](microservices/README.md#c-how-do-they-communicate-with-each-other)
 
 <b>03. Network Fundamentals</b>
 
@@ -66,9 +61,9 @@ I hope that this repository will not only help me with my studies, to get a bett
 - What is the difference between RUN, CMD and ENTRYPOINT
 - What is Docker Compose
 
-<b>06. Container Orquestrators</b>
+<b>06. Container Orchestrators</b>
 
-- Kubernetes
+- [Kubernetes](orchestrators/kubernetes/README.md)
 - Docker Compose
 
 <b>07. Monitoring</b>
